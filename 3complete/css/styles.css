@@ -1,0 +1,42 @@
+#headerNav {
+	background-color: #00FF65;
+	border-radius: 0;
+	border: 0px;
+	margin: 0px;
+}
+
+.navbar.default {
+	border-color: white;
+}
+
+button.navbar-toggle {
+	background-color: #109F0C;
+}
+
+.navbar-brand {
+	font-size: 2em;
+	text-transform: uppercase;
+	color: white;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.container-fluid p {
+	font-size: 3.5em;
+	background-color: #ADFFF9;
+	height: 1000px;
+}
+
+#dropdown {
+	background-color: #77FFC2;
+	font-size: 1.8em;
+}
+
+@media (max-width: 767px) {
+	.container-fluid p {
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+}
